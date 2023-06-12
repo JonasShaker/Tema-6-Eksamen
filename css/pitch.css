@@ -24,8 +24,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
     gap: 10%;
-    border: 1px solid white; /* The color and style of the line */
-    padding: 10px; /* Optional: Add some padding to the grid items */
+    border: 1px solid white;
+    padding: 10px;
   }
   .tekst_3 {
     display: grid;

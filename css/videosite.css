@@ -2,6 +2,10 @@
   img {
     width: 100%;
   }
+  .link {
+    border: 1px solid white;
+    padding: 10px;
+  }
 }
 
 /* fuld skærm */
@@ -26,4 +30,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  /* .link {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid white;
+    padding: 10px;
+  } */
 }
