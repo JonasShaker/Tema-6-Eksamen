@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* fuld skærm */
+
+@media (min-width: 900px) {
+  img {
+    width: 100%;
+  }
+
+  .videosite_container {
+    gap: 10%;
+    padding: 10%;
+  }
+
+  .tekst_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+  }
+
+  .box_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* fuld skærm */
+
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+
+  .emnesite_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20%;
+    padding: 10%;
+  }
+
+  .tekst_1 {
+    padding: 20px;
+  }
+
+  .overskrift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+body {
+  /* background: rgb(249, 236, 222);
+  background: linear-gradient(
+    0deg,
+    rgba(249, 236, 222, 1) 53%,
+    rgba(45, 19, 0, 1) 100%;
+
+  ) */
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+header {
+  display: flex;
+}
+.logo img {
+  display: flex;
+  width: 28%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+header {
+  max-width: 100%;
+}
+
+/* burger Menu */

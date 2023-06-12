@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* fuld skærm */
+
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+
+  .virksomhedssite_container {
+    padding: 7%;
+  }
+  .tekst_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+
+    padding: 5%;
+  }
+
+  .tekst_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .tekst_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+
+  .box_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+
+  .tekst_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+
+  .tekst_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+}

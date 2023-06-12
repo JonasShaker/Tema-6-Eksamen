@@ -1,0 +1,154 @@
+@media (max-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* .box_1 {
+    border: 1px solid black;
+    padding: 10%;
+    margin: 10%;
+    width: 32%;
+    height: 100%;
+    background-image: url(/billedere//forside/website.png);
+    background-size: cover;
+  }
+  .box_2 {
+    border: 1px solid black;
+    padding: 10%;
+    margin: 10%;
+    top: 10%;
+    width: 32%;
+    height: 100%;
+    background-image: url(/billedere//forside/emne.png);
+    background-size: cover;
+  }
+  .box_3 {
+    border: 1px solid black;
+    padding: 10%;
+    margin: 10%;
+    top: 10%;
+    width: 32%;
+    height: 100%;
+    background-image: url(/billedere//forside/proto.png);
+    background-size: cover;
+  }
+  .box_4 {
+    position: relative;
+    border: 1px solid black;
+    padding: 10%;
+    margin: 10%;
+    top: 10%;
+    width: 32%;
+    height: 100%;
+  }
+
+  .box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .box-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  } */
+  */ .main-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  .toggle-btn {
+    display: block; /* Vis knappen, når viewporten maksimalt er 600px */
+  }
+
+  .main-menu {
+    display: contents; /* Fjern ".main-menu"-boksen fra ligningen, når viewporten maksimalt er 600px, men behold børnene, så disse deltager i flex-kontekten */
+  }
+
+  .main-menu ul {
+    display: none; /* Fjern menu-listen som standard */
+  }
+
+  .main-menu.shown ul {
+    /* Vis menu-listen, når klassen ".shown" er til stede */
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+  article {
+    display: grid;
+    gap: 2rem;
+  }
+
+  article {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+/* fuld skærm */
+
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+
+  .logo img {
+    width: 20%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+
+  .logo img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .box_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10%;
+  }
+  .box_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+  }
+  .forside_container {
+    padding: 10%;
+  }
+
+  .forside_container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+
+  .forside_container img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* fuld skærm */
+
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+/* .website_grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+} */
+
+.website_grid {
+  padding: 10%;
+}
+
+h3 {
+  justify-content: left;
+}
+.tekst_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tekst_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tekst_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
