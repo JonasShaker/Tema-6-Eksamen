@@ -2,6 +2,28 @@
   img {
     width: 100%;
   }
+  .pitch_container {
+    display: grid;
+    gap: 2%;
+  }
+
+  .tekst_1 {
+    display: grid;
+  }
+  .tekst_2 {
+    display: grid;
+    gap: 2%;
+  }
+  .tekst_3 {
+    display: grid;
+
+    gap: 10%;
+  }
+  .tekst_4 {
+    display: grid;
+
+    gap: 10%;
+  }
 }
 
 /* fuld skærm */
@@ -24,9 +46,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
     gap: 10%;
-    border: 1px solid white;
-    padding: 10px;
   }
+
   .tekst_3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,6 +56,11 @@
   .tekst_4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+  .tekst_5 {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10%;
   }
 }

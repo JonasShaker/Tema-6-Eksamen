@@ -1,21 +1,32 @@
 body {
-  /* background: rgb(249, 236, 222);
-  background: linear-gradient(
-    0deg,
-    rgba(249, 236, 222, 1) 53%,
-    rgba(45, 19, 0, 1) 100%;
-
-  ) */
   background-color: black;
 }
 
 h1 {
   font-size: 50px;
-}
-body {
-  color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
+/* header */
+header {
+  max-width: 100%;
+  background-color: black;
+}
+
+.toppen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* body */
+body {
+  color: white;
+  font-family: Ars Maquette;
+  text-align: justify;
+}
+/* logo */
 .nav-brandig {
   max-width: 100%;
 }
@@ -30,20 +41,23 @@ body {
   align-items: center;
 }
 
+.nav-branding {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  max-width: 100%;
+}
+
 .nav-brandig img:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-header {
-  max-width: 100%;
-}
-
-.toppen {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
+.nav-brandig img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* burger Menu */
@@ -52,10 +66,6 @@ header {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-header {
-  background-color: black;
 }
 
 li {
@@ -71,35 +81,9 @@ a {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 0 24px;
   gap: 10%;
   left: 10%;
-}
-
-.nav-branding {
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-  max-width: 100%;
-}
-
-.nav-brandig img {
-  display: flex;
-  width: 50%;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-brandig img:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 .nav-menu {
@@ -111,9 +95,10 @@ a {
 }
 
 .toppen {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  max-width: 100%;
 }
 
 .nav-link {
@@ -179,14 +164,9 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 10%;
+  gap: 10%;
 }
 
 .hojre img {
   max-width: 40px;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
 }

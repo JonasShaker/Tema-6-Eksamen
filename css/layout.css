@@ -45,6 +45,11 @@
   }
   main {
     padding: 10%;
+    gap: 5%;
+  }
+
+  .forside_container {
+    gap: 2%;
   }
   .logo img {
     width: 20%;
@@ -81,6 +86,7 @@
     gap: 30%;
     max-width: 100%;
     padding: 10%;
+    text-align: justify;
   }
   .mig {
     width: 300px;

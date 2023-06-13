@@ -2,6 +2,46 @@
   img {
     width: 100%;
   }
+  .virksomhedssite_container {
+    display: grid;
+    padding: 7%;
+    gap: 3%;
+  }
+  .tekst_1 {
+    display: grid;
+
+    gap: 5%;
+
+    padding: 5%;
+  }
+
+  .tekst_2 {
+    display: grid;
+    gap: 5%;
+  }
+  .tekst_3 {
+    display: grid;
+
+    gap: 5%;
+  }
+
+  .box_1 {
+    display: grid;
+
+    gap: 5%;
+  }
+
+  .tekst_4 {
+    display: grid;
+
+    gap: 5%;
+  }
+
+  .tekst_5 {
+    display: grid;
+
+    gap: 5%;
+  }
 }
 
 /* fuld skærm */

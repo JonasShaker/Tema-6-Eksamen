@@ -2,6 +2,10 @@
   img {
     width: 100%;
   }
+  .spil_grid {
+    grid-gap: 10%;
+    padding: 10%;
+  }
 }
 
 /* fuld skærm */
@@ -23,5 +27,6 @@
   .tekst_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
   }
 }
