@@ -166,10 +166,6 @@ a {
   max-width: 40px;
 }
 
-/* footer {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: relative;
-  clear: both;
-} */
+.link {
+  font-size: 20px;
+}

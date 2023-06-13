@@ -2,6 +2,10 @@
   img {
     width: 100%;
   }
+
+  .website_grid {
+    padding: 7%;
+  }
 }
 
 /* fuld skærm */
@@ -10,11 +14,6 @@
   img {
     max-width: 100%;
   }
-
-  /* .website_grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-} */
 
   .website_grid {
     padding: 10%;

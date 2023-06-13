@@ -30,11 +30,4 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
   }
-
-  /* .link {
-    display: grid;
-    grid-template-columns: 1fr;
-    border: 1px solid white;
-    padding: 10px;
-  } */
 }
