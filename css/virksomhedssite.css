@@ -42,6 +42,26 @@
 
     gap: 5%;
   }
+
+  .footer_grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    gap: 5%;
+  }
+
+  .hojre img {
+    max-width: 40px;
+  }
+
+  footer {
+    left: 0;
+    right: 0;
+    position: relative;
+    clear: both;
+    bottom: -450px;
+    padding: 5%;
+  }
 }
 
 /* fuld skærm */

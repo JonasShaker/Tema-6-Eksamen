@@ -5,6 +5,7 @@
   .pitch_container {
     display: grid;
     gap: 2%;
+    padding: 10%;
   }
 
   .tekst_1 {
@@ -17,12 +18,32 @@
   .tekst_3 {
     display: grid;
 
-    gap: 10%;
+    gap: 2%;
   }
   .tekst_4 {
     display: grid;
 
-    gap: 10%;
+    gap: 2%;
+  }
+
+  .footer_grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 5%;
+  }
+
+  .hojre img {
+    max-width: 40px;
+  }
+
+  footer {
+    left: 0;
+    right: 0;
+    position: relative;
+    clear: both;
+    bottom: -300px;
+    padding: 5%;
   }
 }
 

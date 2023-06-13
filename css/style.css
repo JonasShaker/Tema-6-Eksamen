@@ -1,7 +1,10 @@
+/* body */
 body {
+  color: white;
+  font-family: Ars Maquette;
+  text-align: justify;
   background-color: black;
 }
-
 h1 {
   font-size: 50px;
   display: flex;
@@ -20,12 +23,6 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 
-/* body */
-body {
-  color: white;
-  font-family: Ars Maquette;
-  text-align: justify;
-}
 /* logo */
 .nav-brandig {
   max-width: 100%;
@@ -63,8 +60,6 @@ body {
 /* burger Menu */
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -142,7 +137,7 @@ a {
 .nav-menu {
   position: fixed;
   left: -100%;
-  top: 0px;
+  top: -10px;
   gap: 0;
   flex-direction: column;
   background-color: black;
@@ -163,10 +158,18 @@ a {
 .footer_grid {
   display: flex;
   justify-content: space-between;
-  padding: 10%;
+  padding: 0%;
   gap: 10%;
 }
 
 .hojre img {
   max-width: 40px;
 }
+
+/* footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  clear: both;
+} */

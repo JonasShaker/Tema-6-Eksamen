@@ -1,0 +1,42 @@
+@media (max-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+  body {
+    padding: 5%;
+  }
+  .om_mig {
+    padding: 10%;
+  }
+
+  .footer_grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    gap: 10%;
+  }
+
+  .hojre img {
+    max-width: 40px;
+  }
+
+  footer {
+    padding: 10%;
+  }
+}
+
+/* fuldskærm */
+
+@media (min-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+
+  .om_mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30%;
+    max-width: 100%;
+    padding: 10%;
+  }
+}

@@ -16,11 +16,9 @@
   }
   .forside_container {
     text-align: center;
+    place-content: center;
   }
 
-  .box_3 {
-    text-align: center;
-  }
   .forside_container img {
     width: 300px;
     height: 200px;
@@ -34,6 +32,25 @@
   .forside_container img:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+  }
+
+  .footer_grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 5%;
+  }
+
+  .hojre img {
+    max-width: 40px;
+  }
+
+  footer {
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    position: relative;
+    clear: both;
   }
 }
 
@@ -106,5 +123,13 @@
   .forside_container img:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+  }
+
+  footer {
+    bottom: 17%;
+    left: 0;
+    right: 0;
+    position: relative;
+    clear: both;
   }
 }

@@ -2,9 +2,8 @@
   img {
     width: 100%;
   }
-  .link {
-    border: 1px solid white;
-    padding: 10px;
+  .videosite_container {
+    padding: 10%;
   }
 }
 
